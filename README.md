@@ -13,6 +13,8 @@ Before you start, you will need:
    https://gamma-api.polymarket.com/public-profile?address=YOUR_METAMASK_ADDRESS
    ```
 
+![Screenshot 1](screenshot_1.png)
+
 2. **Your MetaMask wallet** that you used to sign up on Polymarket. It should be funded with a small amount of POL tokens on the Polygon network. Make sure to switch your MetaMask wallet to the Polygon network in advance.
 
 3. **The destination address**, i.e., the address where you want to send the funds. This can be your MetaMask wallet address or any other EVM address. **Important:** if you want to send the funds to a deposit address on a CEX, make sure that it supports USDC.e deposits beforehand.
@@ -90,14 +92,26 @@ For example, for address `0x011bcAE259E54E6ce15B37Def4f3f80b9c525bad`:
    For example: `https://polygonscan.com/address/0x2c73f583c014d97ced36121180baa29e5ca744f4`
 
 2. Click the **Contract** tab.
+
+![Screenshot 2](screenshot_2.png)
+
 3. Click the **Write Contract as Proxy** tab.
-4. Click **Connect to Web3** and connect your MetaMask wallet. Make sure it is on the Polygon network.
+
+![Screenshot 3](screenshot_3.png)
+   
+5. Click **Connect to Web3** and connect your MetaMask wallet. Make sure it is on the Polygon network.
+
+![Screenshot 4](screenshot_4.png)
 
 ---
 
 ## Step 3. Fill in the execTransaction form
 
-Scroll down to find **`execTransaction`** and click to expand it. Fill in the fields exactly as follows:
+Scroll down to find **`execTransaction`** and click to expand it.
+
+![Screenshot 5](screenshot_5.png)
+
+Fill in the fields exactly as follows:
 
 | Field | Value |
 |-------|-------|
